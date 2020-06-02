@@ -63,13 +63,6 @@
 	overflow: hidden;
 }
 
-
-
-
-
-
-
-
 .content { 
 	max-width: 100%;
 }
@@ -117,4 +110,9 @@
 	color: white;
 	position: relative;
 	top: -30%;
+}
+
+.quickl ul li a {
+	color:white;
+	text-decoration: none;
 }
