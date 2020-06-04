@@ -8,7 +8,7 @@
   font-size: 16px;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 20px 16px;
   text-decoration: none;
 }
 
@@ -22,10 +22,11 @@
   border: none;
   outline: none;
   color: white;
-  padding: 14px 16px;
+  padding: 20px 16px;
   background-color: inherit;
   font-family: inherit;
   margin: 0;
+  width: 100%;
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
@@ -65,54 +66,4 @@
 
 .content { 
 	max-width: 100%;
-}
-
-.footer {
-	height: 20%;
-	background-color: #c2c0cc;
-}
-
-.about {
-	color: white;
-	position: relative;
-	left: 5%;
-	max-width: 33%;
-	display: inline-block;
-}
-
-.quickl {
-	color: white;
-	position: relative;
-	left: 18%;
-	top: 6%;
-	max-width: 33%;
-	display: inline-block;
-}
-
-.connect {
-	color: white;
-	position: relative;
-	left: 33%;
-	top: -8%;
-	max-width: 33%;
-	display: inline-block;
-}
-
-.copyright {
-	height: 4%;
-	background-color: #c2c0cc;
-	position: relative;
-	top: -1%;
-}
-
-.copytext {
-	text-align: center;
-	color: white;
-	position: relative;
-	top: -30%;
-}
-
-.quickl ul li a {
-	color:white;
-	text-decoration: none;
 }
