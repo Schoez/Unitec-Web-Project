@@ -1,14 +1,13 @@
 <!doctype html>
 <html>
 <head>
-<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-
+<link href="style.css" rel="stylesheet" type="text/css">
+<link href="HeaderFooter.css" rel="stylesheet" type="text/css">
 <title>Untitled Document</title>
 </head>
-<link href="style1.css" type="text/css" rel="stylesheet">
-<link href="HeaderFooter.css" rel="stylesheet">
-<body bgcolor="">
+
+
+	<body bgcolor="">
 	
 	<div class="navbar">
 	<a href="#home">Home</a>
@@ -46,31 +45,56 @@
 		</div>
 	</div> 
 </div>
-	
+		
 	<a href="#"><div class="slideshow-container">
 	<div class="mySlides fade">
     <br>
-    <img src="images/Slideshow.jpg" style=" height: 550px" class="center"  >
-    </div>
-	<div class="mySlides fade">
-		<br>
-    <img src="images/Slideshow1.jpg" style=" height: 550px" class="center">
-    </div>
-
-	<div class="mySlides fade">
-		<br>
-	<img src="images/Slideshow2.jpg" style=" height: 550px" class="center" >
-			
- 	</div>
+    <div class="thumbnail" >
+		<img src="images/photo-1498050108023-c5249f4df085.jpg" style="opacity:0.28">
+		<div class="text">
+			<h3>HTML Coding</h3>
+			<p>Learn the basics of HTML5 and start coding in HTML</p>
+			<div class="Submit1">
+			<input type="button" value="START" onClick="alert('Unfortunately, we are currently doing maintentence until further notice')">
+		</div>
+		</div>
 	</div>
-<br>
-
+    </div>
+		<div class="mySlides fade">
+    <br>
+    <div class="thumbnail1" >
+		<img src="images/b1.jpg" style="opacity: 0.3">
+		<div class="text">
+			<h3 >HTML Exercise</h3>
+			<p >Start the practice for HTML questions with the wide variety of programs </p>
+			<div class="Submit" style="margin-top: 70px">
+			<input type="button" value="START" onClick="alert('Unfortunately, we are currently doing maintentence until further notice')">
+		</div>
+		</div>
+	</div>
+	</div>
+    </div>
+			
+		<div class="mySlides fade"><br>
+			
+  <div class="thumbnail2" >
+		<img src="images/b3.jpg" style="opacity: 0.3">
+		<div class="text">
+			<h3 >HTML Quiz </h3>
+			<p >Check your HTML knowledge and answer some Questions</p>
+			<div class="Submit1" style="margin-top:90px">
+			<input type="button" value="START" onClick="alert('Unfortunately, we are currently doing maintentence until further notice')">
+		</div>
+		</div>
+	</div>
+    </div>
+		
 <div style="text-align:center">
   <span class="dot"></span> 
   <span class="dot"></span> 
   <span class="dot"></span> 
 </div>
-
+		</a>
 <script>
 var slideIndex = 0;
 showSlides();
@@ -89,57 +113,63 @@ function showSlides() {
   }
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
-  setTimeout(showSlides, 3000); // Change image every 3 seconds
+  setTimeout(showSlides,5000); // Change image every 5 seconds
 }
-</script></a>
-	<div class="gallery">
-    <div class="thumbnail"> <a href="#"><img src="images/Untitled-2.jpg" alt="" width="2000" class="cards"/></a>
-     <h4> <a href="#">HTML INTRODUCTION</a></h4>
+</script><br><br>
+		<div class="gallery">
+		<h3>Introduction and Basics IN HTML</h3>
+    <div class="box"> <a href="#"><img src="images/Introduction-to-HTML-2.jpg" alt=""  class="cards" style="margin-top:-20px; "></a>
+     <h4> <a href="#">Html Introduction</a></h4><br>
       <p class="tag">Topics Covered : Concept of HTML</p>
+		<div class="Submit2">
+			<input type="button" value="START" onClick="alert('Unfortunately, we are currently doing maintentence until further notice')">
+		</div>
     </div>
-    <div class="thumbnail"> <a href="#"><img src="images/Untitled-3.jpg" alt="" width="2000" class="cards"/></a>
-		<h4><a href="#">HTML BASICS</a></h4>
+    <div class="box"> <a href="#"><img src="images/basics.jpg" alt=""  class="cards" style="margin-top:-20px; height: 220px"/></a>
+		<h4><a href="#">Html Basics</a></h4><br>
       <p class="tag">Topics Covered :Basics of HTML</p>
+		<div class="Submit2">
+			<input type="button" value="START" onClick="alert('Unfortunately, we are currently doing maintentence until further notice')">
+		</div>
     </div>
-    <div class="thumbnail"> <a href="#"><img src="images/Untitled-4.jpg" alt="" width="2000" class="cards"/></a>
-		<h4><a href="#">HTML TAGS</a></h4>
+    <div class="box"> <a href="#"><img src="images/a12.png" alt=""  class="cards" style="margin-top:-20px; height: 220px"></a>
+		<h4><a href="#">Html Tags</a></h4><br>
       <p class="tag">Topics Covered : Tags in HTML</p>
-   	</div>
-	<div class="thumbnail"> <a href="#"><img src="images/Untitled-5.jpg" alt="" width="2000" class="cards"/></a>
-		<h4><a href="#">HTML STYLES</a></h4>
-      <p class="tag">Topics Covered : Use of Style attribute in HTML</p>
+		<div class="Submit2">
+			<input type="button" value="START" onClick="alert('Unfortunately, we are currently doing maintentence until further notice')">
+		</div>
+   	</div><br><br>
+	
     </div>
-    <div class="thumbnail"> <a href="#"><img src="images/Untitled-6.jpg" alt="" width="2000" class="cards"/></a>
-		<h4><a href="#">HTML PARAGRAPHS</a></h4>
-      <p class="tag">Topics Covered : Use of Paragraph tag in HTML</p>
+		<div class="gallery">
+		<h3>Tags, Forms and styles in HTML</h3>
+    <div class="box"> <a href="#"><img src="images/maxresdefault.jpg" alt=""  class="cards" style="margin-top:-20px; "></a>
+     <h4> <a href="#">Heading and Paragraph Tag</a></h4><br>
+      <p class="tag">Topics Covered : Heading and Paragraph Tag</p>
+		<div class="Submit2">
+			<input type="button" value="START" onClick="alert('Unfortunately, we are currently doing maintentence until further notice')">
+		</div>
     </div>
-  </div>
-	<div class="gallery">
-    <div class="thumbnail"> <a href="#"><img src="images/image-7.jpg" alt="" width="2000" class="cards"/></a>
-     <h4> <a href="#">HTML FORMS</a></h4>
-      <p class="tag">Topics Covered :Use of form tag in HTML</p>
+    <div class="box"> <a href="#"><img src="images/forms.jpg" alt=""  class="cards" style="margin-top:-20px; height: 220px"/></a>
+		<h4><a href="#">Html Forms</a></h4><br>
+      <p class="tag">Topics Covered :Forms in HTML</p>
+		<div class="Submit2">
+			<input type="button" value="START" onClick="alert('Unfortunately, we are currently doing maintentence until further notice')">
+		</div>
     </div>
-    <div class="thumbnail"> <a href="#"><img src="images/image-8.jpg" alt="" width="2000" class="cards"/></a>
-		<h4><a href="#">HTML LISTS</a></h4>
-      <p class="tag">Topics Covered :Lists in HTML</p>
+    <div class="box"> <a href="#"><img src="images/formatting.jpg" alt=""  class="cards" style="margin-top:-20px; height: 220px"></a>
+		<h4><a href="#">Html Formatting</a></h4><br>
+      <p class="tag">Topics Covered : Text Formatting in HTML</p>
+		<div class="Submit2">
+			<input type="button" value="START" onClick="alert('Unfortunately, we are currently doing maintentence until further notice')">
+		</div>
+   	</div><br><br>
+	
     </div>
-    <div class="thumbnail"> <a href="#"><img src="images/image-9.jpg" alt="" width="2000" class="cards"/></a>
-		<h4><a href="#">HTML LINKS</a></h4>
-      <p class="tag">Topics Covered : Use of href in HTML</p>
-   	</div>
-	<div class="thumbnail"> <a href="#"><img src="images/image-10.jpg" alt="" width="2000" class="cards"/></a>
-		<h4><a href="#">HTML EXAMPLES</a></h4>
-      <p class="tag">Topics Covered : Basic Examples in HTML</p>
-    </div>
-    <div class="thumbnail"> <a href="#"><img src="images/image-11.jpg" alt="" width="2000" class="cards"/></a>
-		<h4><a href="#">HTML EXERCISES</a></h4>
-      <p class="tag">Topics Covered : Programs in HTML</p>
-    </div>
-  </div>
-<footer>
+	<footer>
 	<div class="footer">
 		<div class="about">
-			<h4>About Code Central:</h4>
+			<h4 class="connect1">About Code Central:</h4>
 					Code Central is a company that will provide educational resources for students,
 					previous graduates, and current workers who are looking for resources, past works,
 					and other useful information that could be used to refresh their skills. 
@@ -155,7 +185,7 @@ function showSlides() {
 				</ul>
 		</div>
 		<div class="connect">
-			<h4>Connect With Us:</h4>
+			<h4 class="connect1">Connect With Us:</h4>
 				<a href="http://facebook.com">
 					<img src="images/facebook.jpg" width="50" height="50" alt="facebook">
 				</a>
