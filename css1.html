@@ -1,0 +1,261 @@
+<html>
+<head>
+	<title>Css Page</title>
+		<link href="Cssheaderfooter.css" rel="stylesheet">
+
+<Style>
+.container {
+  position: relative;display:inline-block;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 50%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+.sehun[height:500]
+h1{position:center}
+</style>
+</head>
+<body>
+	<div class="content"></div>
+
+<div class="navbar">
+	<a href="#home">Home</a>
+	<div class="navright">
+		<a href="#Forum">Forum</a>
+		<a href="#News">News & Updates</a>
+		<a href="#Aboutus">About Us</a>
+		<a href="#Login">Login</a>
+	</div>
+	<div class="dropdown">
+		<button class="dropbtn">Javascript Lessons 
+		</button>
+		<div class="dropdown-content">
+			<a href="#">Javascript Lesson 1</a>
+			<a href="#">Javascript Lesson 2</a>
+			<a href="#">Javascript Lesson 3</a>
+		</div>
+	</div> 
+	<div class="dropdown">
+		<button class="dropbtn">CSS Lessons 
+		</button>
+		<div class="dropdown-content">
+			<a href="#">CSS Lesson 1</a>
+			<a href="#">CSS Lesson 2</a>
+			<a href="#">CSS Lesson 3</a>
+		</div>
+	</div> 
+	<div class="dropdown">
+		<button class="dropbtn">HTML Lessons 
+		</button>
+		<div class="dropdown-content">
+			<a href="#">HTML Lesson 1</a>
+			<a href="#">HTML Lesson 2</a>
+			<a href="#">HTML Lesson 3</a>
+		</div>
+	</div> 
+</div>
+<!---------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------->
+<br><br><br>
+<div style="width:1052px; margin:auto;">
+<H1><center><big>How to css/how to change colors</big></center></h1><br>
+<center><img src="images/css/howtocss.jpg" width="95%"></center><br>
+<h2>What is Css??</h2>
+<p>CSS(Cascading Style Sheets) is a way to set up how elements will be displayed .<br><br>
+This lesson will describe all 3 ways of using css</p><ul>
+<Li>External css</li>
+<Li>Internal css</li>
+<Li>Inline css</li>
+</ul>
+<p>And how to change colors with css.</p>
+
+
+
+
+
+
+<br><br><H1>1.External css</h1>
+<center><img src="images/css/external.jpg" width="95%"></center><br><br>
+<h4>External css is a way of styling the webpage by setting styles in separate file(.css) and linking to the HTML web page.</h4>
+<p>1.How to link the css file<p>
+<ul><li>In the Head of html page. Type," Angle bracket <big>link Href ="name of css file.css"
+ rel="stylesheet"</big> Angle bracket closed"</li></ul> 
+<p>2.How to make external css file(.css)</p><br>
+<img src="images/css/makecssfile.jpg" width="60%">
+<ol><li>open notepad++</li>
+<li>type in css code</li>
+<li>SAVE as Casade Style Sheet file (*.css)</li>
+</ol>
+<br>
+<br>
+<h3>The advantages of External Style Sheets are:</h3>
+
+
+
+
+
+
+<ul>
+<li> the styles of html webpage can be controlled from one file(.css).</li>
+<li>Classes can be created for use on multiple HTML element types in many documents.</li>
+<li>In complex situations, selector and grouping methods can be used to apply styles.</li></ul>
+<h3>The disadvantages of External Style Sheets are:</h3>
+<ul>
+<li> extra download is required to put style information for each document.</li>
+<li>Until the external style sheet is loaded, it may not be possible to render the document.</li>
+<li>For small number of style definitions wont be viable.</li></ul>
+
+
+
+<br>
+<br><H1>2.Internal css</h1>
+<center><img src="images/css/internal.jpg" width="95%"></center><br>
+<h4>Internal CSS is styling by adding CSS code in the HEAD section of the document.</h4><br>
+<p>Styling changes will apply to every specific element in the html file.<br>
+this is a solid option for one-page 
+websites or when you cannot create external stylesheets for your project.</p>
+
+<h3>The advantages of internal Style Sheets are:</h3>
+
+
+<ul>
+<li>It can over write the codes from external css(stronger than external css)</li>
+<li>You can use class and ID selectors</li>
+<li>In complex situations, selector and grouping methods can be used to apply styles.</li></ul>
+
+<h3>The disadvantages of Internal Style Sheets are:</h3>
+<ul>
+<li>increase the html page’s size and loading time.</li>
+</ul><br><br>
+
+
+
+
+
+
+
+
+
+
+
+<br><H1>3.Inline css</h1>
+<center><img src="images/css/inline.jpg" width="95%"></center><br>
+<h4>Inline CSS is applying a unique style to one HTML element at a time.</h4>
+<br>
+
+<h3>The advantages of Inline css are:</h3>
+
+
+<ul>
+<li>It over writes the codes from external css and internal css (stonger than the internal and external style sheet)</li>
+<li>You can change one specific element with out effecting other elements</li>
+</ul>
+
+<h3>The disadvantages of Inline css are:</h3>
+<ul>
+<li>makes the html page messy.</li>
+<li>increase the size of page and download time.</li>
+</ul>
+
+
+
+<br>
+<br><H1>Ways of Coloring</h1>
+
+<center><img src="images/css/color.jpg" width="95%"></center><br>
+<h3>You can set the color of with</h3>
+<ul><li>Name of the color</li>
+<li>RGB(red green blue) of the color</li>
+<li>HEX of the color</li>
+</ul>
+<img src="images/css/color2.jpg" width="100%">
+
+
+
+
+<br><br><br>
+<h3>This is the end of the lesson</h3>
+<br><br><br><center>
+
+<a href="css.html" ><img src="images/css/CSSHOME.jpg" width="16%"> </a>
+ <a href="css2.html"><img src="images/css/nextbutton.jpg" width="16%"> </a></center>
+
+
+</div>
+<!----------------------------------------------------------------------------------------------------->
+<!---------------------------------------------------------------------------------------------------->
+<br><br><br>
+<div><footer>
+	<div class="footer">
+		<div class="about">
+			<h4>About Code Central:</h4>
+					Code Central is a company that will provide educational resources for students,
+					previous graduates, and current workers who are looking for resources, past works,
+					and other useful information that could be used to refresh their skills. 
+		</div>
+		<div class="quickl">
+			<div class="test"><h4>Quick Links:</h4></div>
+				<ul>
+					<li><a href="#Htmllessons">HTML Lessons</a></li>
+					<li><a href="#Csslessons">CSS Lessons</a></li>
+					<li><a href="#JsLessons">Javascript Lessons</a></li>
+					<li><a href="#Forum">Forum</a></li>
+					<li><a href="#News">News & Updates</a></li>
+				</ul>
+		</div>
+		<div class="connect">
+			<h4>Connect With Us:</h4>
+				<a href="http://facebook.com">
+					<img src="images/facebook.jpg" width="50" height="50" alt="facebook">
+				</a>
+				<a href="http://instagram.com">
+					<img src="images/instagram.jpg" width="50" height="50" alt="instagram">
+				</a>
+				<a href="http://twitter.com">
+					<img src="images/twitter.jpg" width="50" height="50" alt="twitter">
+				</a>
+				<a href="http://youtube.com">
+					<img src="images/youtube.jpg" width="50" height="50" alt="facebook">
+				</a>
+			
+		</div>
+	</div></div>
+	
+</footer>
+	<div class="copyright">
+	<hr>
+	<h6 class="copytext">&copy; Copyright 2020 Code Central</h6>
+	</div>
+</body>
+</html>
