@@ -1,5 +1,6 @@
 body {
 	margin: 0;
+	background-image: url("images/wallpaper.jpg");
 }
 
 .content { 
@@ -85,6 +86,7 @@ form {
   height: 50%;
   width: 50%;
   margin: auto;
+  background-color: white;
 }
 
 input[type=text], input[type=password] {
