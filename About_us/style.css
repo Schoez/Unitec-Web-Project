@@ -1,0 +1,166 @@
+.navbar {
+  overflow: hidden;
+  background-color: #c2c0cc;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: right;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #033359;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #c2c0cc;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.navright {
+	float:right;
+	overflow: hidden;
+}
+
+.content { 	
+	max-width: 100%;
+}
+
+.img {
+	margin-top: 15%;
+
+}
+
+.WWA {
+	text-align:center;
+	position: relative;
+}
+
+.gallery {
+	margin: 10px 10px;
+
+}
+
+.gallery img {
+		transition: 1s;
+		padding: 15px;
+		width: 200px;
+}
+
+.gallery img:hover {
+		filter: grayscale(100%);
+		transform: scale(1.1);
+}
+
+.h1 {
+	position: absolute;
+}
+
+.founders {
+	text-align:center;
+	position: relative;
+}
+.block p {
+	font-size: 20px;
+	padding: 3em;
+	position: relative;
+	top: 25%;
+	transform: translateY(-50%);
+}
+
+.section {
+	display: block;
+	max-width: 500px;
+	background:  #E74C3C;
+	margin: 0 auto 1 em;
+	height: 100px;
+	position: relative;
+	border-right: .2em;
+	transform: preserve-3d;
+}
+
+.footer {
+	height: 30%;
+	background-color: #c2c0cc;
+}
+
+.about {
+	color: white;
+	position: relative;
+	left: 5%;
+	max-width: 33%;
+	display: inline-block;
+}
+
+.quickl {
+	color: white;
+	position: relative;
+	left: 18%;
+	top: 6%;
+	max-width: 33%;
+	display: inline-block;
+}
+
+.connect {
+	color: white;
+	position: relative;
+	left: 33%;
+	top: -8%;
+	max-width: 33%;
+	display: inline-block;
+}
+
+.copyright {
+	height: 8%;
+	background-color: #c2c0cc;
+	position: relative;
+	top: -1%;
+}
+
+.copytext {
+	text-align: center;
+	color: white;
+	position: relative;
+	top: -30%;
+}
