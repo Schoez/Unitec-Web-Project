@@ -40,6 +40,11 @@ body {
 	display: inline-block;
 }
 
+.homebutton {
+	position:absolute;
+	height:5.9%;
+}
+
 .connect {
 	color: white;
 	position: relative;
