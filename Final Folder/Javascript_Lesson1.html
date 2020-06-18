@@ -1,0 +1,214 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+	
+	<link href="jslesson1.css" type="text/css" rel="stylesheet">
+	<link href="HeaderFooter.css" type="text/css" rel="stylesheet">
+	<style>
+		.homebutton {
+    position:absolute;
+    height:7%;
+}
+	</style>
+<title>Introduction to Javascript</title>
+</head>
+
+<body style="background-image: url('images/unknown (1).png')">
+	<a href="homepage.html"><img class="homebutton" src="Images/logo.png"></a>
+	<div class="navbar">
+	
+	<div class="navright">
+		<a href="#Forum">Forum</a>
+		<a href="#News">News & Updates</a>
+		<a href="AboutUs.html">About Us</a>
+		<a href="#Login">Login</a>
+	</div>
+	<div class="dropdown">
+		<button class="dropbtn">Javascript Lessons 
+		</button>
+		<div class="dropdown-content">
+			<a href="#">Javascript Lesson 1</a>
+			<a href="#">Javascript Lesson 2</a>
+			<a href="#">Javascript Lesson 3</a>
+		</div>
+	</div> 
+	<div class="dropdown">
+		<button class="dropbtn">CSS Lessons 
+		</button>
+		<div class="dropdown-content">
+			<a href="#">CSS Lesson 1</a>
+			<a href="#">CSS Lesson 2</a>
+			<a href="#">CSS Lesson 3</a>
+		</div>
+	</div> 
+	<div class="dropdown">
+		<button class="dropbtn">HTML Lessons 
+		</button>
+		<div class="dropdown-content">
+			<a href="#">HTML Lesson 1</a>
+			<a href="#">HTML Lesson 2</a>
+			<a href="#">HTML Lesson 3</a>
+		</div>
+	</div> 
+</div>
+	<div class="gallery">
+		<br><br>
+	<div class="thumbnail1">
+	<div class="box1" style="height:2850px">
+		<h3>What is Javascript ?</h3>	
+		<p>JavaScript is a dynamic computer programming language. It is lightweight and most commonly used as a part of web pages, whose implementations allow client-side script to interact with the user and make dynamic pages. It is an interpreted programming language with object-oriented capabilities.The programs in this language are called scripts. They can be written right in a web page’s HTML and run automatically as the page loads.</p>
+		<hr style="border: 1px dashed deepskyblue; width: 90%;">
+		<h3>Introduction</h3>
+		<p>JavaScript was created to add ‘life to webpages’. Just like HTML and CSS, JavaScript is written in plain text files with a .js extension.JavaScript has no relation to Java.Javascript is the collection of properties and methods consisting of set of definable characteristics that you can view and modify, and with which you can interact.Colors are good example of a property that, because of its nature, is easy to visualize. Properties that apply to HTML document can be directly manupulated by referring to the object and the property by name and then settigns its value. For example,the background color of a page can be changed by a concise statement: document.bgcolor="blue". </p>
+		<p>Methods are techiques that are used to perform actions involving objects and their properties. Javascript can manipulate the behaviour of a number of known objects- those based on HTML objects. One of the simplest method is the write method. It applies to the document object and causes a string of characters to the written in the HTML document. The simple statement document.write("Hello World!") displays Hello World onscreen in HTML when the browser encounters that statement as a part of a script.  </p>
+		<hr style="border: 1px dashed deepskyblue; width: 90%;">
+		<h3>How does Javascript work?</h3>
+		<p>JavaScript is either embedded into a web page or else it’s included in a .js file. JavaScript is also a “client-side” language (rather than a “server-side” language), which is a fancy way of saying that it gets downloaded to site visitors’ computers, then processed.</p>
+		<hr style="border: 1px dashed deepskyblue; width: 90%;">
+		<h3>Insert Javascript</h3>
+		<h4 style="font-size: 25px; text-align: center;color: black">Javascript in head tag</h4>
+		<p>In this example, a JavaScript function is placed in the head section of an HTML page.</p>
+		<img src="Images/img1.PNG" style="width: 100%; height: 450px; max-width: 700px; border: 2px solid grey" id="myImg">
+		<div id="myModal" class="modal">
+  			<span class="close">&times;</span>
+  			<img class="modal-content" id="img01" alt="">
+  			<div id="caption"></div>
+		</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("myImg");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  modal.style.display = "none";
+}
+</script>
+		<hr style="border: 1px dashed deepskyblue; width: 90%;">
+		<h4 style="font-size: 25px; text-align: center;color: black">Javascript in body tag</h4>
+		<p>In this example, a JavaScript function is placed in the body section of an HTML page.</p>
+		<img src="Images/img2.PNG" style="width: 70%; height: 450px; border: 2px solid grey" id="myImg1" alt="">
+		<div id="myModal1" class="modal1">
+  			<span class="close1">&times;</span>
+  			<img class="modal1-content" id="img02" alt="">
+  			<div id="caption1"></div>
+		</div>
+<script>
+// Get the modal
+var modal1 = document.getElementById("myModal1");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("myImg1");
+var modal1Img = document.getElementById("img02");
+var caption1Text = document.getElementById("caption1");
+img.onclick = function(){
+  modal1.style.display = "block";
+  modal1Img.src = this.src;
+  caption1Text.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close1")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  modal1.style.display = "none";
+}
+</script>	
+		<hr style="border: 1px dashed deepskyblue; width: 90%;">
+		<h3>External Javascript</h3>
+		<p>Scripts can also be placed in external files:</p>
+		<img src="Images/img3.PNG" style="width: 70%; height: 150px;border: 2px solid grey" id="myImg2">
+		<div id="myModal2" class="modal2">
+  			<span class="close2">&times;</span>
+  			<img class="modal2-content" id="img03" alt="">
+  			<div id="caption2"></div>
+		</div>
+<script>
+// Get the modal
+var modal2 = document.getElementById("myModal2");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("myImg2");
+var modal2Img = document.getElementById("img03");
+var caption2Text = document.getElementById("caption2");
+img.onclick = function(){
+  modal2.style.display = "block";
+  modal2Img.src = this.src;
+  caption2Text.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close2")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  modal2.style.display = "none";
+}
+</script>		
+		
+		<p>External scripts are practical when the same code is used in many different web pages.
+
+JavaScript files have the file extension .js.
+
+To use an external script, put the name of the script file in the src (source) attribute of a script tag:</p>		
+	</div>	
+	</div>
+	</div>
+<footer>
+	<div class="footer">
+		<div class="about">
+			<h4 class="connect1">About Code Central:</h4>
+					Code Central is a company that will provide educational resources for students,
+					previous graduates, and current workers who are looking for resources, past works,
+					and other useful information that could be used to refresh their skills. 
+		</div>
+		<div class="quickl">
+			<div class="test"><h4>Quick Links:</h4></div>
+				<ul>
+					<li><a href="#Htmllessons">HTML Lessons</a></li>
+					<li><a href="#Csslessons">CSS Lessons</a></li>
+					<li><a href="#JsLessons">Javascript Lessons</a></li>
+					<li><a href="#Forum">Forum</a></li>
+					<li><a href="#News">News & Updates</a></li>
+				</ul>
+		</div>
+		<div class="connect">
+			<h4 class="connect1">Connect With Us:</h4>
+				<a href="http://facebook.com">
+					<img src="Images/facebook.jpg" width="50" height="50" alt="facebook">
+				</a>
+				<a href="http://instagram.com">
+					<img src="Images/instagram.jpg" width="50" height="50" alt="instagram">
+				</a>
+				<a href="http://twitter.com">
+					<img src="Images/twitter.jpg" width="50" height="50" alt="twitter">
+				</a>
+				<a href="http://youtube.com">
+					<img src="Images/youtube.jpg" width="50" height="50" alt="facebook">
+				</a>
+			
+		</div>
+	</div>
+			
+</footer>
+	<div class="copyright">
+	<hr>
+	<h6 class="copytext">&copy; Copyright 2020 Code Central</h6>
+	</div>
+</body>
+</html>
