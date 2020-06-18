@@ -1,0 +1,170 @@
+<html>
+<head>
+	<title>Header Footer</title>
+		<link href="newsupdates.css" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="viewport" content="height=device-height, initial-scale=1">
+</head>
+<body>
+<a href="homepage.html"><img class="homebutton" src="logo1.jpg"></a>
+<header>
+<div class="content"></div>
+<div class="navbar">
+	<a href="homepage.html">Home</a>
+	<div class="navright">
+		<a href="forum.html">Forum</a>
+		<a href="newsupdates.html">News & Updates</a>
+		<a href="#Aboutus">About Us</a>
+		<a href="#Login">Login</a>
+	</div>
+	<div class="dropdown">
+		<button class="dropbtn">Javascript Lessons 
+		</button>
+		<div class="dropdown-content">
+			<a href="#">Javascript Lesson 1</a>
+			<a href="#">Javascript Lesson 2</a>
+			<a href="#">Javascript Lesson 3</a>
+		</div>
+	</div> 
+	<div class="dropdown">
+		<button class="dropbtn">CSS Lessons 
+		</button>
+		<div class="dropdown-content">
+			<a href="#">CSS Lesson 1</a>
+			<a href="#">CSS Lesson 2</a>
+			<a href="#">CSS Lesson 3</a>
+		</div>
+	</div> 
+	<div class="dropdown">
+		<button class="dropbtn">HTML Lessons 
+		</button>
+		<div class="dropdown-content">
+			<a href="#">HTML Lesson 1</a>
+			<a href="#">HTML Lesson 2</a>
+			<a href="#">HTML Lesson 3</a>
+		</div>
+	</div> 
+</header>
+<br>
+<!--slide show code-->
+<div class="slideshow-container">
+
+  <div class="mySlides fade">
+    <div class="numbertext">1</div>
+    <img src="general.jpg" style="width:100%">
+    <div class="text">NEWS AND UPDATES</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2</div>
+    <img src="codelessonupdate.jpg" style="width:100%">
+    <div class="text">CODEING LESSONS UPDATES</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3</div>
+    <img src="forumupdate.jpg" style="width:100%">
+    <div class="text">FORUM UPDATES</div>
+  </div>
+
+</div>
+<br>
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+<br>
+<div style="text-align:center">
+<h1>UPDATES AND NEWS</h1>
+</div>
+<br>
+<div style="width:1000px;height:150px;line-height:3em;overflow:scroll;padding:5px;background-color:#FFFFFF;color:#714D03;scrollbar-base-color:#DEBB07; margin:auto;">
+<p>
+19th June 2020
+Our website is up and running ready people to use our free lessons and resources.
+</p>
+<p>
+18th June 2020
+Lessons 1, 2 and 3 added to our Java Script course.
+</p>
+<p>
+17th June 2020
+Lessons 1, 2 and 3 added to our CSS course.
+</p>
+<p>
+16th June 2020
+Lessons 1, 2 and 3 added to our HTML course.
+</p>
+<p>
+15th June 2020
+A forum has been added to the web site feel free to post a question if you need help.
+</p>
+<p>
+14th June 2020
+An About Us page has been added to the site click on it to find out more.
+</p>
+
+</div>
+
+</div>
+
+
+<!--footer code-->
+<footer>
+	<div class="footer">
+		<div class="about">
+			<h4>About Code Central:</h4>
+					Code Central is a company that will provide educational resources for students,
+					previous graduates, and current workers who are looking for resources, past works,
+					and other useful information that could be used to refresh their skills. 
+		</div>
+		<div class="quickl">
+			<div class="test"><h4>Quick Links:</h4></div>
+				<ul>
+					<li><a href="#Htmllessons">HTML Lessons</a></li>
+					<li><a href="#Csslessons">CSS Lessons</a></li>
+					<li><a href="#JsLessons">Javascript Lessons</a></li>
+					<li><a href="forum.html">Forum</a></li>
+					<li><a href="newsupdates.html">News & Updates</a></li>
+				</ul>
+		</div>
+		<div class="connect">
+			<h4>Connect With Us:</h4>
+				<a href="http://facebook.com">
+					<img src="facebook.jpg" width="50" height="50" alt="facebook">
+				</a>
+				<a href="http://instagram.com">
+					<img src="instagram.jpg" width="50" height="50" alt="instagram">
+				</a>
+				<a href="http://twitter.com">
+					<img src="twitter.jpg" width="50" height="50" alt="twitter">
+				</a>
+				<a href="http://youtube.com">
+					<img src="youtube.jpg" width="50" height="50" alt="facebook">
+				</a>
+		</div>
+	</div>
+</footer>
+	<div class="copyright">
+	<hr>
+	<h6 class="copytext">&copy; Copyright 2020 Code Central</h6>
+	</div>
+	<script> var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none"; 
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1} 
+  slides[slideIndex-1].style.display = "block"; 
+  setTimeout(showSlides, 8000);
+}
+</script>
+
+</body>
+</html>
