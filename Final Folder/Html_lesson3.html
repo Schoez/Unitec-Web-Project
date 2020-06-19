@@ -8,8 +8,10 @@
 <body style="background:url(images/css/wallpaper.png)">
 <div class="content">
 
+<!--this is the homepage button  -->
 <a href="index.html"><img class="homebutton" src="images/logo1.jpg"></a>
 
+<!--this is the navbar -->
 <div class="navbar">
 	<div class="navright">
 		<a href="Forum.html">Forum</a>
@@ -47,7 +49,7 @@
 </div>
 
 </br>
-<div class="backbox"></div>
+<div class="backbox"></div> <!-- This is the div box behind the lesson div boxs -->
 </br>
 </br>
 <div class="lessonbox">
@@ -75,7 +77,7 @@
 </br>
 </br>
 
-<div class="slideshow-container">
+<div class="slideshow-container"> <!--This is a slideshow with controls for images to take less room-->
 
 <div class="mySlides fade">
   <div class="numbertext">1 / 2</div>
@@ -126,17 +128,18 @@
 <br>
 <br>
 
+<!--Navigation buttons for UX-->
 <a href="Html_lesson2.html" style="color:white">
 <div class="lessonnav">
 < Previous HTML Lesson
 </div></a>
 
-<a href="Html_lesson3.html" style="color:white">
+<a href="Html_lesson1.html" style="color:white">
 <div class="lessonnav2">
 Next Lesson >
 </div></a>
 
-<footer>
+<footer> <!--Footer-->
 	<div class="footer1">
 		<div class="about">
 			<h4 class="about1">About Code Central:</h4>
@@ -185,7 +188,7 @@ Next Lesson >
 </div>
 
 <script>
-//slideshow code
+//slideshow script
 var slideIndex = 1;
 showSlides(slideIndex);
 
@@ -197,6 +200,7 @@ function currentSlide(n) {
   showSlides(slideIndex = n);
 }
 
+//removed dots
 function showSlides(n) {
   var i;
   var slides = document.getElementsByClassName("mySlides");

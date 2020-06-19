@@ -7,8 +7,8 @@
 </head>
 <body style="background:url(images/css/wallpaper.png)">
 <div class="content">
-<a href="homepage.html"><img class="homebutton" src="images/logo1.jpg"></a>
-<div class="navbar">
+<a href="homepage.html"><img class="homebutton" src="images/logo1.jpg"></a> <!--Homebutton-->
+<div class="navbar"> <!--Navbar code-->
 	<a href="#home">Home</a>
 	<div class="navright">
 		<a href="Forum.html">Forum</a>
@@ -47,7 +47,7 @@
 	
 	<br>
 	<br>
-	<form name="myForm" onsubmit="return validateForm()">
+	<form name="myForm" onsubmit="return validateForm()"> <!--This is the login container code-->
 		<div class="imgcontainer">
 		<img src="images/avatar.png" alt="Avatar" class="avatar">
 		</div>
@@ -78,7 +78,7 @@
 		</div>
 	</form>
 	
-<footer>
+<footer> <!--Footer Code-->
 	<div class="footer">
 		<div class="about">
 			<h4 class="about1">About Code Central:</h4>
@@ -127,7 +127,7 @@
 </div>
 
 <script>
-<!--Form Script-->
+<!--Form Script--> <!--This form makes sure that the fields are populated, if they are it will return a thnx message-->
 function validateForm() {
   var uname = document.forms["myForm"]["uname"].value;
   var psw = document.forms["myForm"]["psw"].value;
